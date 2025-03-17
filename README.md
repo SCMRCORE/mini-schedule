@@ -1,6 +1,8 @@
 # mini-schedule
 
-手写的mini定时任务
+手写一个简单的mini定时任务
+
+blog链接：[⏰ 实现简单mini的定时任务 | Blog](https://scmrcore.github.io/Notes/CodeMemoirs/手写定时任务.html)
 
 - 涉及知识点：多线程，并发安全，优先队列，LockSupport
 - 文件结构：
