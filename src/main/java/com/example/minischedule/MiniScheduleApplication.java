@@ -11,6 +11,7 @@ public class MiniScheduleApplication {
 
     public static void main(String[] args) throws InterruptedException {
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("HH:mm:ss SSS");
+
         ScheduleService scheduleService = new ScheduleService();
         scheduleService.schedule(()->{
             System.out.println(LocalDateTime.now().format(dateTimeFormatter)+" 这是一个100ms一次的任务");
